@@ -1,6 +1,6 @@
 %define upstream_name	    ABF
 %define upstream_version    0.01
-%define git		    20121225
+%define git		    20130102
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
