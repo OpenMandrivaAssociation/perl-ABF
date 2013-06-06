@@ -13,6 +13,7 @@ Source0:	%{upstream_name}-%{git}.tar.xz
 BuildRequires:	perl-devel
 # (tpg) for checks
 BuildRequires:	perl(LWP::UserAgent)
+BuildRequires:	perl(JSON)
 BuildArch:	noarch
 
 %description
