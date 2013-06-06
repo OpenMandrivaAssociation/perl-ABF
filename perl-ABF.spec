@@ -11,6 +11,8 @@ Group:		Development/Other
 URL:		https://github.com/mikhirev/ABF
 Source0:	%{upstream_name}-%{git}.tar.xz
 BuildRequires:	perl-devel
+# (tpg) for checks
+BuildRequires:	perl(LWP::UserAgent)
 BuildArch:	noarch
 
 %description
