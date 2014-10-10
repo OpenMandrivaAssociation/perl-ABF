@@ -4,7 +4,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	%{?git:0.%git.}3
+Release:	%{?git:0.%git.}4
 Summary:	Perl implementation of ABF API
 License:	GPLv3+
 Group:		Development/Other
