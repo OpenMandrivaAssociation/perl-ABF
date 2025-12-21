@@ -10,6 +10,7 @@ License:	GPLv3+
 Group:		Development/Other
 URL:		https://github.com/mikhirev/ABF
 Source0:	%{upstream_name}-%{git}.tar.xz
+BuildRequires:	make
 BuildRequires:	perl-devel
 # (tpg) for checks
 BuildRequires:	perl(LWP::UserAgent)
