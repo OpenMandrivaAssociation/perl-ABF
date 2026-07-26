@@ -1,9 +1,8 @@
 %define upstream_name	    ABF
-%define upstream_version    0.01
 %define git		    20130102
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
+Version:	0.01
 Release:	%{?git:0.%git.}4
 Summary:	Perl implementation of ABF API
 License:	GPLv3+
